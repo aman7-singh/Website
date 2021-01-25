@@ -1,0 +1,42 @@
+
+header.page-header {
+    background: no-repeat left/cover url(../Resources/images/PlaneSmoke.gif);
+    display: flex;
+    height: 500px;
+    min-width: 120px;
+    
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+    margin: 2%;
+}
+
+main {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+img.profilePic{
+    height: 150px;
+    width: 150px;
+}
+
+aside {
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: left;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
